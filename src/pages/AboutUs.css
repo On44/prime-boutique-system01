@@ -1,0 +1,99 @@
+/* src/pages/AboutUs.css */
+
+.aboutus-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.aboutus-header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #0056b3;
+}
+
+.aboutus-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.aboutus-header p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.aboutus-main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.aboutus-intro, .aboutus-team, .aboutus-values {
+    margin-bottom: 40px;
+}
+
+.aboutus-intro h2, .aboutus-team h2, .aboutus-values h2 {
+    font-size: 2.5em;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.aboutus-intro p, .aboutus-values ul {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.aboutus-team {
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33% - 40px);
+    margin: 0 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.team-member p {
+    color: #6c757d;
+}
+
+.aboutus-values ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.aboutus-footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #dee2e6;
+}
